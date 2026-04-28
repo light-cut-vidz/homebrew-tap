@@ -1,14 +1,14 @@
 cask "lightcutvidz" do
-  version "1.0.0"
+  version "1.0.1"
 
   on_arm do
-    url "https://github.com/light-cut-vidz/light-cut-vidz/releases/download/v1.0.0/LightCutVidz-mac-arm64.dmg"
-    sha256 "d258c94b46ac1431cabf9d9c0532df9da33c0031c6123d835b753858b530d175"
+    url "https://github.com/light-cut-vidz/light-cut-vidz/releases/download/v1.0.1/LightCutVidz-mac-arm64.dmg"
+    sha256 "70d28ca9c86d2dac1f54c55d1abfed5fa8a0cf90ddd6e76eb41a7160ff00ba28"
   end
 
   on_intel do
-    url "https://github.com/light-cut-vidz/light-cut-vidz/releases/download/v1.0.0/LightCutVidz-mac-x64.dmg"
-    sha256 "0a1c515c4dffde16f9867597d761d9b35e6a451c6263d06c1f4d434278123d09"
+    url "https://github.com/light-cut-vidz/light-cut-vidz/releases/download/v1.0.1/LightCutVidz-mac-x64.dmg"
+    sha256 "5d2308057bf9889f2437d49939cb3f5f0d6bc90d8bb42bd5135701cd630be95a"
   end
 
   name "LightCutVidz"
