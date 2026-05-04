@@ -17,7 +17,7 @@ cask "lightcutvidz" do
 
   app "LightCutVidz.app"
 
-  depends_on macos: ">=11"
+  depends_on macos: :big_sur
 
   zap trash: [
     "~/Library/Application Support/LightCutVidz",
