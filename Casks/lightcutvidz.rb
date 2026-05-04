@@ -17,7 +17,7 @@ cask "lightcutvidz" do
 
   app "LightCutVidz.app"
 
-  depends_on macos: ">= :high_sierra"
+  depends_on macos: ">=11"
 
   zap trash: [
     "~/Library/Application Support/LightCutVidz",
