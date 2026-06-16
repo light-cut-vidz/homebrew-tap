@@ -15,6 +15,8 @@ cask "lightcutvidz" do
   postflight do
     system_command "/usr/bin/xattr",
       args: ["-dr", "com.apple.quarantine", "#{appdir}/LightCutVidz.app"]
+    system_command "/usr/bin/codesign",
+      args: ["--force", "--deep", "--sign", "-", "#{appdir}/LightCutVidz.app"]
   end
 
   zap trash: [
