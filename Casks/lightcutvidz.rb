@@ -12,6 +12,11 @@ cask "lightcutvidz" do
 
   app "LightCutVidz.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-dr", "com.apple.quarantine", "#{appdir}/LightCutVidz.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/LightCutVidz",
     "~/Library/Logs/LightCutVidz",
