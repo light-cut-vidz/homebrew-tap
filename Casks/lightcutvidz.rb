@@ -1,8 +1,8 @@
 cask "lightcutvidz" do
-  version "1.3.5"
+  version "1.3.6"
 
-  url "https://github.com/light-cut-vidz/light-cut-vidz/releases/download/v1.3.5/LightCutVidz-mac-arm64.dmg"
-  sha256 "a27d3cff6f37dea61adb0e7f83c19f7c1b0b9257fc1bd39d81eb370045b4cfe7"
+  url "https://github.com/light-cut-vidz/light-cut-vidz/releases/download/v1.3.6/LightCutVidz-mac-arm64.dmg"
+  sha256 "cc3ba16e87a30be20001ad04d81dfd2724d1e298d711b59526a560dae44fcf22"
 
   depends_on arch: :arm64
 
