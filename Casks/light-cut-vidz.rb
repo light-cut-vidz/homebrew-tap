@@ -1,6 +1,6 @@
 cask "light-cut-vidz" do
-  version "1.0.0"
-  sha256 "b5970fdf6d00ad1215a7b81cffaf024cc205402faba97dfba19fb6d58edfc567"
+  version "1.0.1"
+  sha256 "0b933c92e0bf4303aae86d911f1d6568ab13e4e204fc18f641782642aa09ead7"
 
   url "https://github.com/light-cut-vidz/light-cut-vidz/releases/download/v#{version}/LightCutVidz-mac-arm64.zip"
   name "LightCutVidz"
