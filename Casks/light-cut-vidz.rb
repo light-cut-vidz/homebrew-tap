@@ -23,11 +23,11 @@ cask "light-cut-vidz" do
 
   # The app is not signed with an Apple Developer certificate. Ad-hoc signing it
   # here is what lets it launch without the right-click -> Open dance.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/LightCutVidz.app"]
-    system_command "/usr/bin/codesign",
-                   args: ["--force", "--deep", "--sign", "-", "#{appdir}/LightCutVidz.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/LightCutVidz.app"]
+    run "/usr/bin/codesign",
+        args: ["--force", "--deep", "--sign", "-", "{{appdir}}/LightCutVidz.app"]
   end
 
   zap trash: [
