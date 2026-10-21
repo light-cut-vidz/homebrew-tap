@@ -16,8 +16,8 @@ cask "light-cut-vidz" do
   # croire qu'elle est restée à la version qu'il a installée.
   auto_updates true
   depends_on arch: :arm64
-  # Electron 41 ships Chromium builds that require macOS 12 or later.
-  depends_on macos: :monterey
+  # Electron 45 ships Chromium builds that require macOS 13 or later.
+  depends_on macos: :ventura
 
   app "LightCutVidz.app"
 
